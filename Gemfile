@@ -49,7 +49,11 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'spring'  
   gem 'byebug'
-  gem 'sqlite3'
+  gem 'devise'
+end
+
+group :test do
+   gem 'shoulda-matchers', require: false
 end
 
 group :development do
